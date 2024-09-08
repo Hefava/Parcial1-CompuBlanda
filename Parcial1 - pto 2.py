@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import time  # Importar módulo para medir tiempo
+import time  
 
 np.random.seed(0)  # Semilla
 
