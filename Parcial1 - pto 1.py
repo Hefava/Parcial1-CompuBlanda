@@ -110,6 +110,7 @@ for gen in range(generations):
         plt.scatter(gen, incumbent_fitness, c='b')
 
 # Mostrar el gráfico final del incumbente
+plt.plot(best_in_gen)
 plt.xlabel('Generaciones')
 plt.ylabel('Incumbente Fitness')
 plt.title('Evolución del Incumbente')
